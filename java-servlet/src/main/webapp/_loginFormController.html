@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <meta charset="UTF-8">
+	  <script type = "text/javascript" src="loginFormValid.js"></script>
+	</head
+	
+	<body>
+		<form action = "appController" id="loginController">
+			<input type = "hidden" name = "decider" value = "login">
+			Username:
+			<input type = "text" name = "username"> <br>
+			Password:
+			<input type = "password" name = "password"> <br>
+			
+			<input type = "submit" value = "Login" onclick = "return validateLoginForm()">
+		</form>
+	</body>
+</html>
